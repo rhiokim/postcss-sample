@@ -1,15 +1,6 @@
+@import 'external.css';
+@import "bar.css" (min-width: 25em);
+
 a {
   display: flex;
-}
-
-$blue: #056ef0;
-$column: 200px;
-
-.menu {
-  width: calc(4 * $column);
-}
-
-.menu_link {
-  background: color-mod($blue alpha(90%));
-  width: $column;
 }

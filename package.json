@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postcss": "postcss --config ./postcss.config.js -o dist/style.css styles/**/*.css"
+    "postcss": "postcss --config ./postcss.config.js -o dist/style.css styles/index.css"
   },
   "keywords": [],
   "author": "",
@@ -13,6 +13,7 @@
   "devDependencies": {
     "autoprefixer": "^8.0.0",
     "postcss-cli": "^5.0.0",
+    "postcss-import": "^11.1.0",
     "precss": "^3.1.1"
   }
 }
