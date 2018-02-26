@@ -4,3 +4,7 @@
 a {
   display: flex;
 }
+
+body {
+  background: resolve('github.svg');
+}
